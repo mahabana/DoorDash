@@ -118,7 +118,7 @@ public class Game {
 	
 	public static void main(String [] args)
 	{
-		System.out.println("maha git hub");
+		System.out.println("maha git hub is the leader");
 	}
 	
 }
