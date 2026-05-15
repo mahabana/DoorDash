@@ -116,9 +116,6 @@ public class Game {
 		return null;
 	}
 	
-	public static void main(String [] args)
-	{
-		System.out.println("maha");
-	}
+	
 	
 }
