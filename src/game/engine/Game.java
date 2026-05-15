@@ -118,7 +118,7 @@ public class Game {
 	
 	public static void main(String [] args)
 	{
-		System.out.println("maha git hub is the leader");
+		System.out.println("maha,jana^2 and nada git hub are the best leaders");
 	}
 	
 }
