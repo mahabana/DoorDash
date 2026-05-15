@@ -16,10 +16,10 @@ public class GameController {
     // SHOW GAME BOARD
     // =========================
 
-    public void showBoard() {
+    public void showBoard(String selectedRole) {
 
         BoardView boardView =
-                new BoardView();
+                new BoardView(selectedRole);
 
         primaryStage.setScene(
                 boardView.getScene()

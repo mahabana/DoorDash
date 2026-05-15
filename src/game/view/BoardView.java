@@ -10,9 +10,13 @@ public class BoardView {
     private GridPane board;
 
     private CellView[][] cells;
+    
+    private String role;
 
-    public BoardView() {
-
+    public BoardView(String role) {
+    	
+    	this.role= role;
+    	
         cells = new CellView[10][10];
 
         createBoard();

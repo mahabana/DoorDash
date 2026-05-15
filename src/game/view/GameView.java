@@ -26,23 +26,10 @@ public class GameView {
 
     public void showStartScreen() {
 
-        // =========================
-        // TITLE
-        // =========================
-
         Label title =
                 new Label("DoorDasH");
-
-        // =========================
-        // ROLE LABEL
-        // =========================
-
         Label roleLabel =
                 new Label("Selected Role: NONE");
-
-        // =========================
-        // SCARER BUTTON
-        // =========================
 
         Button scarerButton =
                 new Button("SCARER");
@@ -56,10 +43,7 @@ public class GameView {
             );
         });
 
-        // =========================
-        // LAUGHER BUTTON
-        // =========================
-
+     
         Button laugherButton =
                 new Button("LAUGHER");
 
@@ -72,16 +56,14 @@ public class GameView {
             );
         });
 
-        // =========================
-        // START GAME BUTTON
-        // =========================
+     
 
         Button startButton =
                 new Button("START GAME");
 
         startButton.setOnAction(e -> {
 
-            // validation
+          
 
             if (selectedRole.equals("NONE")) {
 
@@ -94,7 +76,7 @@ public class GameView {
 
             // open board
 
-            controller.showBoard();
+            controller.showBoard(selectedRole);
         });
 
         // =========================
