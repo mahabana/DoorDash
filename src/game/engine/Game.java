@@ -118,9 +118,8 @@ public class Game {
 	
 	public static void main(String [] args)
 	{
-		System.out.println("github is working again");
+		System.out.println("maha,jana^2 and nada git hub are the best leaders");
+		System.out.println("hii");
 	}
-	
-	
 	
 }
