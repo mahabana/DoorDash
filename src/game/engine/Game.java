@@ -118,7 +118,7 @@ public class Game {
 	
 	public static void main(String [] args)
 	{
-		System.out.println("github test");
+		System.out.println("github is working again");
 	}
 	
 	
